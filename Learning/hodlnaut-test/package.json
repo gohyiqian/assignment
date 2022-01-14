@@ -1,0 +1,29 @@
+{
+  "name": "hodlnaut-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gohyiqian/assignment.git"
+  },
+  "author": "yiqian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gohyiqian/assignment/issues"
+  },
+  "homepage": "https://github.com/gohyiqian/assignment#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.2",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
+}
